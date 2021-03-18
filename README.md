@@ -8,3 +8,9 @@ DB2 queries and other tools for IBMi
 ## search.sh - Find source physical file members with multiple keywords
 *Shell script to search inside source physical file for members that has multiple keywords (both inclusive). This helps to look for a specific source that contains two (or more) terms. Find string function in IBMi limits you to a single string that can be searched.*
 ([Link](https://gist.github.com/AbrahamReuben/287c3b9603f89a35bfb473f95f8592d7))
+
+## STR2ARR.SQLRPGLE - Parse a string and populate an array with the elements
+*SQLRPGLE program to parse a string, delimited by a specific character into an array. Uses the SYSTOOLS.SPLIT function, to parse the input string instead of going with a looping approach.*
+([Link](<script src="https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5.js"></script>))
+([Link](https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5.js))
+([Link](https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5))
