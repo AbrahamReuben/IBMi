@@ -11,6 +11,4 @@ DB2 queries and other tools for IBMi
 
 ## STR2ARR.SQLRPGLE - Parse a string and populate an array with the elements
 *SQLRPGLE program to parse a string, delimited by a specific character into an array. Uses the SYSTOOLS.SPLIT function, to parse the input string instead of going with a looping approach.*
-([Link](<script src="https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5.js"></script>))
-([Link](https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5.js))
 ([Link](https://gist.github.com/AbrahamReuben/d4bdad7bf631c7fb45e3608bb4259fe5))
