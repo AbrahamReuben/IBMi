@@ -23,3 +23,10 @@ Once the tables are determined, it is mapped against the library list of the job
 Note: Check DTASRCSP.sql that uses a different approach on this same requirement*<br/><br/>
 **Program Type: SQL**
 ([Link](https://gist.github.com/AbrahamReuben/5b625300b203f1ebbf3d88b1679a2c43))
+
+## WHRISOBJ.sql - Find which version of an Object is seen by the Job in accordance to the Library List set up ##
+*While executing IBMi commands/programs from an external source, it gets difficult to determine if an object is present in the Library List of the Job or which version 
+of the Object is seen by the Job in accordance with the Library List set up of the job.<br/>The idea behind this script is to get the Library Listing of the Job and use it 
+to determine which version of the Object is seen by the job.*<br/><br/>
+**Program Type: SQL**
+([link](https://gist.github.com/AbrahamReuben/503c15cb6a8991b8f57da268a30646da))
