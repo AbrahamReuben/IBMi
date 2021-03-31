@@ -2,7 +2,7 @@
 DB2 queries and other tools for IBMi
 
 ## DTASRCSP.sql - Get the list of Tables/Programs referenced by a Stored Procedure in Order as it appears in the Library List of the job ##
-*Uses output from DSPPGMREF to determine the objects referred by the Program Object and then use a Stored Procedure to retreive the list of Tables/Programs referenced by a Stored Procedure in the same order as it appears in the Library List. This helps determine which LIBRARY.TABLE is being referenced by your Stored Procedure versus what LIBRARY.TABLE is available to it as per the Job Library List.*<br/>
+*Uses output from DSPPGMREF to determine the objects referred by the Program Object and then use a Stored Procedure to retreive the list of Tables/Programs referenced by a Stored Procedure in the same order as it appears in the Library List. This helps determine which LIBRARY.TABLE is being referenced by your Stored Procedure versus what LIBRARY.TABLE is available to it as per the Job Library List.*<br/><br/>
 **Program Type: Stored Procedure**
 ([Link](https://gist.github.com/AbrahamReuben/e5854a184ec3704f0f9a52479e5f8ed0))
 
