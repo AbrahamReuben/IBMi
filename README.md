@@ -21,8 +21,10 @@ DB2 queries and other tools for IBMi
 
 ## TABLESINSP.sql - Get the list of Tables referenced by a Stored Procedure in the Order as it appears in the Library List of the job
 *Stored Procedures with Static SQL - Uses QSYS2.SYSROUTINEDEP to determine which tables are used in the Stored Procedure
+
 Stored Procedures with Dynamic SQL - Reads the source of the Stored Procedure and determines the tables by mapping it to SYSIBM.TABLES
 Once the tables are determined, it is mapped against the library list of the job to determine what table is available in the Libraries as indicated by the Library List for the Stored Procedure. This helps determine which LIBRARY.TABLE is being referenced by your Stored Procedure versus what LIBRARY.TABLE is available to it as per the Job Library List.
+
 Note: Check DTASRCSP.sql that uses a different approach on this same requirement*
 
 **Program Type: SQL**
