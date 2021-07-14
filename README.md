@@ -6,7 +6,7 @@ DB2 queries and other tools for IBMi
 **Program Type: Stored Procedure**
 ([Link](https://gist.github.com/AbrahamReuben/e5854a184ec3704f0f9a52479e5f8ed0))
 
-## search.sh - Find source physical file members with multiple keywords ##
+## SEARCH.sh - Find source physical file members with multiple keywords ##
 *Shell script to search inside source physical file for members that has multiple keywords (both inclusive). This helps to look for a specific source that contains two (or more) terms. Find string function in IBMi limits you to a single string that can be searched.*<br/><br/>
 **Progrm Type: Shell Script**
 ([Link](https://gist.github.com/AbrahamReuben/287c3b9603f89a35bfb473f95f8592d7))
@@ -30,3 +30,13 @@ of the Object is seen by the Job in accordance with the Library List set up of t
 to determine which version of the Object is seen by the job.*<br/><br/>
 **Program Type: SQL**
 ([link](https://gist.github.com/AbrahamReuben/503c15cb6a8991b8f57da268a30646da))
+
+## DeepSearch.sql - Get the list of Source Physical file Members with a specific keyword ##
+*The idea behind this script is to find that one source in the system, which you know exists but you just don't know the source physical file which houses that source. 
+This SQL does the same function as a Find String with a difference that this can be used to search into All Source Physical Files in a Libarary or into All Source Physical Files in the system.
+<br/><br/>
+Note: Check SEARCH.sh that does a multi-layered search using a shell script.
+<br/><br/>
+NB: This script alters the Find String command parameters to print the results. Flip the parameters back as required*<br/><br/>
+**Program Type: SQL**
+([link](https://gist.github.com/AbrahamReuben/8f7bfbc9e7b22a39cbbe96298a78bcc6))
