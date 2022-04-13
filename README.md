@@ -40,3 +40,8 @@ Note: Check SEARCH.sh that does a multi-layered search using a shell script.
 NB: This script alters the Find String command parameters to print the results. Flip the parameters back as required*<br/><br/>
 **Program Type: SQL**
 ([link](https://gist.github.com/AbrahamReuben/8f7bfbc9e7b22a39cbbe96298a78bcc6))
+
+## FindString.sql - Do the equivalent of Find String from the Run SQL ##
+*Do the equivalent of Find String from the Run SQL window. This Stored Procedure also lets you search for multiple SRCPFs for a keyword in a single go.*
+**Program Type: SQL**
+([link](https://gist.github.com/AbrahamReuben/f5d64be764116e4afaeb46e72c275601))
