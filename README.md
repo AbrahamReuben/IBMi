@@ -42,6 +42,6 @@ NB: This script alters the Find String command parameters to print the results. 
 ([link](https://gist.github.com/AbrahamReuben/8f7bfbc9e7b22a39cbbe96298a78bcc6))
 
 ## FindString.sql - Do the equivalent of Find String from the Run SQL ##
-*Do the equivalent of Find String from the Run SQL window. This Stored Procedure also lets you search for multiple SRCPFs for a keyword in a single go.*
+*Do the equivalent of Find String from the Run SQL window. This Stored Procedure also lets you search for multiple SRCPFs for a keyword in a single go.*<br/><br/>
 **Program Type: SQL**
 ([link](https://gist.github.com/AbrahamReuben/f5d64be764116e4afaeb46e72c275601))
