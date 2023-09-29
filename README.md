@@ -29,7 +29,7 @@ Note: Check DTASRCSP.sql that uses a different approach on this same requirement
 of the Object is seen by the Job in accordance with the Library List set up of the job.<br/>The idea behind this script is to get the Library Listing of the Job and use it 
 to determine which version of the Object is seen by the job.*<br/><br/>
 **Program Type: SQL**
-([link](https://gist.github.com/AbrahamReuben/503c15cb6a8991b8f57da268a30646da))
+([Link](https://gist.github.com/AbrahamReuben/503c15cb6a8991b8f57da268a30646da))
 
 ## DeepSearch.sql - Get the list of Source Physical file Members with a specific keyword ##
 *The idea behind this script is to find that one source in the system, which you know exists but you just don't know the source physical file which houses that source. 
@@ -39,14 +39,14 @@ Note: Check SEARCH.sh that does a multi-layered search using a shell script.
 <br/><br/>
 NB: This script alters the Find String command parameters to print the results. Flip the parameters back as required*<br/><br/>
 **Program Type: SQL**
-([link](https://gist.github.com/AbrahamReuben/8f7bfbc9e7b22a39cbbe96298a78bcc6))
+([Link](https://gist.github.com/AbrahamReuben/8f7bfbc9e7b22a39cbbe96298a78bcc6))
 
 ## FindString.sql - Do the equivalent of Find String from the Run SQL ##
 *Do the equivalent of Find String from the Run SQL window. This Stored Procedure also lets you search for multiple SRCPFs for a keyword in a single go.*<br/><br/>
 **Program Type: SQL**
-([link](https://gist.github.com/AbrahamReuben/f5d64be764116e4afaeb46e72c275601))
+([Link](https://gist.github.com/AbrahamReuben/f5d64be764116e4afaeb46e72c275601))
 
 ## TextCleanUp.sql - Clean up characters in a string by replacing from a list of characters ##
 *Clean up non-printable or other characters in a string by replacing each character from a substitution list.* <br/><br/>
 **Program Type: SQL**
-([link](https://gist.github.com/AbrahamReuben/48f48c42ca94fc1f2e63e11e4079148f))
+([Link](https://gist.github.com/AbrahamReuben/48f48c42ca94fc1f2e63e11e4079148f))
