@@ -45,3 +45,8 @@ NB: This script alters the Find String command parameters to print the results. 
 *Do the equivalent of Find String from the Run SQL window. This Stored Procedure also lets you search for multiple SRCPFs for a keyword in a single go.*<br/><br/>
 **Program Type: SQL**
 ([link](https://gist.github.com/AbrahamReuben/f5d64be764116e4afaeb46e72c275601))
+
+## TextCleanUp.sql - Clean up characters in a string by replacing from a list of characters ##
+*Clean up non-printable or other characters in a string by replacing each character from a substitution list.* <br/><br/>
+**Program Type: SQL**
+([link](https://gist.github.com/AbrahamReuben/48f48c42ca94fc1f2e63e11e4079148f))
